@@ -1,0 +1,62 @@
+body {
+	background-color: #000;
+}
+
+
+.flex-container {
+	
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: #443;
+	margin: 50px 30px;
+	border: 20px solid #094;
+	outline: 4px solid white;
+}
+
+.form {
+   min-width: 400px;
+   flex: 1;
+   text-align: center;
+   padding: 30px;
+   
+
+}
+.form__imput {
+	width: 100%;
+	padding: 7px;
+	margin: 6px 0;
+	border: none;
+	border-bottom: 3px solid #094;
+	background: transparent;
+	color: #fff;
+}
+.form__imput: focus {
+	background: linear-gradient(to bottom, transparent, #111);
+	outline: none;
+	border-bottom: 3px solid #5f9;
+}
+.form textarea {
+	min-height: 140px;
+	resize: none;
+}
+
+
+.form-img {
+	flex: 1;
+	padding: 10px;
+	min-width: 300px;
+	max-width: 400px;
+	order: 2;
+}
+
+.form-img div{
+
+   padding:10px ;
+}
+.form imput[type="subdmit"] {
+	background-color: #094;
+	border-bottom:none ;
+	padding: 12px;
+}
